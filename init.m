@@ -1,7 +1,7 @@
 function []=init()
 %   Closes figures, clears the workspace, and initializes the generic
 %   colors. 
-%   [blue orange yellow purple green lightblue red]
+%   [blue orange yellow purple green lightBlue red]
 
 clear all
 colors=get(gca,'colororder');
