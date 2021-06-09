@@ -4,8 +4,9 @@ function []=init()
 %   [blue orange yellow purple green lightBlue red]
 
 clear all
-colors=get(gca,'colororder');
 close all
+colors=get(gca,'colororder');
+
 
 global blue orange yellow purple green lightBlue red
 blue=colors(1,:);

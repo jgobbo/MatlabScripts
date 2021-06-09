@@ -3,6 +3,10 @@ function fig=makeFig(number,width,height)
 % It is designed to put the figures in the corners of a 1920x1080 screen
 % started in the top left and then going to the sequential corners up to 4.
 fig=figure(number);
+if nargin<2
+    width=500;
+    height=500;
+end
 
 if mod(number,4)==0
     set(fig,'position',[1920-width 40 width height])   
